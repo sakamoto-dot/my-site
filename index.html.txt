@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>（会社名）｜空き家のご相談・買取</title>
+  <meta name="description" content="空き家の管理が大変な方へ。現況のまま買取・無料査定。横浜市中心に対応。" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <div class="logo">（会社名）</div>
+      <nav class="nav">
+        <a href="#service">サービス</a>
+        <a href="#flow">流れ</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn" href="#contact">無料相談</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div>
+          <p class="badge">横浜市中心｜空き家のご相談</p>
+          <h1>空き家、<br>そのままでも大丈夫。</h1>
+          <p class="lead">
+            遠方・高齢で管理が難しい方へ。<br>
+            現況のまま買取／残置物の相談OK／無料査定。
+          </p>
+          <div class="cta">
+            <a class="btn btn--primary" href="#contact">無料で相談する</a>
+            <a class="btn btn--ghost" href="#faq">よくある質問</a>
+          </div>
+          <ul class="points">
+            <li>秘密厳守</li><li>オンライン相談可</li><li>売らない選択もOK</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>3分チェック</h2>
+          <p class="muted">当てはまる方はご相談ください</p>
+          <ul class="check">
+            <li>草木の手入れができない</li>
+            <li>固定資産税だけ払っている</li>
+            <li>相続して放置している</li>
+            <li>遠方で現地に行けない</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="service" class="section">
+      <div class="container">
+        <h2>サービス</h2>
+        <div class="grid3">
+          <div class="box">
+            <h3>無料査定</h3>
+            <p>机上査定→必要に応じて現地確認。まずは相場感だけでもOK。</p>
+          </div>
+          <div class="box">
+            <h3>現況のまま買取相談</h3>
+            <p>残置物・老朽化など、状況に応じて最適な方法をご提案。</p>
+          </div>
+          <div class="box">
+            <h3>相続・名義の相談</h3>
+            <p>登記や手続きが不安な場合も、専門家連携でサポート可能。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="flow" class="section alt">
+      <div class="container">
+        <h2>ご相談からの流れ</h2>
+        <ol class="flow">
+          <li><b>お問い合わせ</b>（電話／フォーム／オンライン）</li>
+          <li><b>ヒアリング</b>（状況・ご希望・スケジュール）</li>
+          <li><b>査定・ご提案</b>（売却／買取／活用など選択肢提示）</li>
+          <li><b>手続き</b>（必要書類や段取りをご案内）</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <h2>よくある質問</h2>
+        <details><summary>売るか決めていなくても相談できますか？</summary><p>はい。相場確認や選択肢の整理だけでも大丈夫です。</p></details>
+        <details><summary>遠方でも進められますか？</summary><p>オンライン相談や郵送手続きで進められるケースがあります。</p></details>
+        <details><summary>残置物があっても大丈夫？</summary><p>状況により対応可能です。まずは現状を教えてください。</p></details>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>無料相談</h2>
+        <p class="muted">※ここはデモです。実運用はフォームサービスを使うのが簡単です。</p>
+
+        <!-- まずは“見た目だけ”のフォーム -->
+        <form class="form" onsubmit="return false;">
+          <label>お名前<input type="text" placeholder="例：山田 太郎"></label>
+          <label>ご連絡先（電話 or メール）<input type="text" placeholder="例：090-xxxx-xxxx / mail@example.com"></label>
+          <label>物件エリア<input type="text" placeholder="例：横浜市〇〇区"></label>
+          <label>ご相談内容<textarea rows="5" placeholder="例：相続した空き家の売却相談"></textarea></label>
+          <button class="btn btn--primary" type="submit">送信（デモ）</button>
+        </form>
+
+        <p class="small">© <span id="y"></span> （会社名）</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
